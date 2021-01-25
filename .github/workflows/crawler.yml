@@ -13,7 +13,7 @@ jobs:
       run: |
         touch data/$(date -u +"%Y-%m-%d").jsonlines.gz;
         tmp_medimops=$(mktemp)
-        docker-compose -f docker-compose.yml run --volume $tmp_medimops:/tmp/medimops.jsonlines --entrypoint=/bin/ash crawler -c "scrapy crawl momox -o /tmp/medimops.jsonlines"
+        docker-compose -f docker-compose.yml run --volume $tmp_medimops:/tmp/medimops.jsonlines --entrypoint=/bin/ash crawler -c "scrapy crawl medimops -o /tmp/medimops.jsonlines"
         gzip --stdout $tmp_medimops >> data/$(date -u +"%Y-%m-%d").jsonlines.gz
         tmp_momox=$(mktemp)
         docker-compose -f docker-compose.yml run --volume $tmp_momox:/tmp/momox.jsonlines --entrypoint=/bin/ash crawler -c "scrapy crawl momox -o /tmp/momox.jsonlines"
