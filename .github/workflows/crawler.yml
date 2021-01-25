@@ -10,7 +10,11 @@ jobs:
     - name: build
       run: docker-compose -f docker-compose.yml build crawler
     - name: crawl
-      run: touch data/$(date -u +"%Y-%m-%d").jsonlines.gz; docker-compose -f docker-compose.yml run --entrypoint=/bin/ash crawler -c "scrapy crawl momox -o momox.jsonlines; cat momox.jsonlines" | gzip --stdout >> data/$(date -u +"%Y-%m-%d").jsonlines.gz
+      run: |
+        tmp_file=$(mktemp)
+        docker-compose -f docker-compose.yml run --volume $tmp_file:/tmp/momox.jsonlines --entrypoint=/bin/ash crawler -c "scrapy crawl momox -o /tmp/momox.jsonlines"
+        touch data/$(date -u +"%Y-%m-%d").jsonlines.gz;
+        gzip --stdout /tmp/momox.jsonlines >> data/$(date -u +"%Y-%m-%d").jsonlines.gz
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: update momox data
