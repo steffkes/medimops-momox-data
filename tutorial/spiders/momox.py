@@ -27,6 +27,16 @@ class MomoxSpider(scrapy.Spider):
         ]
     ]
 
+    def start_requests(self):
+        for url in self.start_urls:
+            yield scrapy.http.Request(
+                url,
+                headers={
+                    "X-API-TOKEN": "2231443b8fb511c7b6a0eb25a62577320bac69b6",
+                    "X-MARKETPLACE-ID": "momox_de",
+                },
+            )
+
     def parse(self, response):
         try:
             result = json.loads(response.body)

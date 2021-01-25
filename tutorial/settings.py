@@ -36,12 +36,6 @@ COOKIES_ENABLED = False
 # Disable Telnet Console (enabled by default)
 TELNETCONSOLE_ENABLED = False
 
-# Override the default request headers:
-DEFAULT_REQUEST_HEADERS = {
-    "X-API-TOKEN": "2231443b8fb511c7b6a0eb25a62577320bac69b6",
-    "X-MARKETPLACE-ID": "momox_de",
-}
-
 REDIRECT_ENABLED = True
 
 # Enable or disable spider middlewares
