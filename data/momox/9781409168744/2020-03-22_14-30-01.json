@@ -1,0 +1,17 @@
+{
+    "currency": "eur",
+    "demand_rating": 2,
+    "price": "0.52",
+    "product": {
+        "amazon_url": "https://amazon.de/gp/product/1409168743?tag=momox-21",
+        "description": "Buch von Cole, Daniel\n(Gebundene Ausgabe, 384 Seiten)\nTrapeze, Februar 2017",
+        "ean": "9781409168744",
+        "image_url": "https://www.momox.co.uk/images/9781409168744/title.jpg",
+        "title": "Ragdoll: The thrilling Sunday Times bestseller everyone is talking about",
+        "type": "book"
+    },
+    "reference_price": null,
+    "reference_price_date": null,
+    "status": "offer",
+    "warehouse_status": 1
+}

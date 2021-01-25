@@ -1,0 +1,17 @@
+{
+    "currency": "eur",
+    "demand_rating": 5,
+    "price": "0.44",
+    "product": {
+        "amazon_url": "https://amazon.de/gp/product/3548060226?tag=momox-21",
+        "description": "Buch von Cole, Daniel\n(Taschenbuch, 1., 480 Seiten)\nUllstein Taschenbuch, August 2019",
+        "ean": "9783548060224",
+        "image_url": "https://www.momox.de/bilder/9783548060224/titel.jpg",
+        "title": "Ragdoll - Dein letzter Tag: Thriller (Ein New-Scotland-Yard-Thriller, Band 1)",
+        "type": "book"
+    },
+    "reference_price": null,
+    "reference_price_date": null,
+    "status": "offer",
+    "warehouse_status": 1
+}

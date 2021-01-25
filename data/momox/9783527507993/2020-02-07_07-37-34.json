@@ -1,0 +1,17 @@
+{
+    "currency": "eur",
+    "demand_rating": 5,
+    "price": "10.48",
+    "product": {
+        "amazon_url": "https://amazon.de/gp/product/352750799X?tag=momox-21",
+        "description": "Buch von Lencioni, Patrick M.\n(Gebundene Ausgabe, 1. Auflage, 186 Seiten)\nWiley-VCH Verlag GmbH & Co. KGaA, September 2014",
+        "ean": "9783527507993",
+        "image_url": "https://www.momox.de/bilder/9783527507993/titel.jpg",
+        "title": "Die 5 Dysfunktionen eines Teams",
+        "type": "book"
+    },
+    "reference_price": null,
+    "reference_price_date": null,
+    "status": "offer",
+    "warehouse_status": 1
+}

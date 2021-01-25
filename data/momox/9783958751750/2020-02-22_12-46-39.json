@@ -1,0 +1,17 @@
+{
+    "currency": "eur",
+    "demand_rating": 5,
+    "price": "8.69",
+    "product": {
+        "amazon_url": "https://amazon.de/gp/product/395875175X?tag=momox-21",
+        "description": "Buch von Kim, Gene, Behr, Kevin\n(Taschenbuch, 1, 352 Seiten)\nO'Reilly, September 2015",
+        "ean": "9783958751750",
+        "image_url": "https://www.momox.de/bilder/9783958751750/titel.jpg",
+        "title": "Projekt Phoenix: Der Roman \u00fcber IT und DevOps - Neue Erfolgsstrategien f\u00fcr Ihre Firma",
+        "type": "book"
+    },
+    "reference_price": null,
+    "reference_price_date": null,
+    "status": "offer",
+    "warehouse_status": 1
+}

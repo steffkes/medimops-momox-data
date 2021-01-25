@@ -1,0 +1,17 @@
+{
+    "currency": "eur",
+    "demand_rating": 4,
+    "price": "2.55",
+    "product": {
+        "amazon_url": "https://amazon.de/gp/product/1101904224?tag=momox-21",
+        "description": "Buch von Crouch, Blake\n(Gebundene Ausgabe, 352 Seiten)\nCrown, Juli 2016",
+        "ean": "9781101904220",
+        "image_url": "https://www.momox.fr/images/9781101904220/titre.jpg",
+        "title": "Dark Matter: A Novel",
+        "type": "book"
+    },
+    "reference_price": null,
+    "reference_price_date": null,
+    "status": "offer",
+    "warehouse_status": 1
+}

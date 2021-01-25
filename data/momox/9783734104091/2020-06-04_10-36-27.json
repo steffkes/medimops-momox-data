@@ -1,0 +1,17 @@
+{
+    "currency": "eur",
+    "demand_rating": 5,
+    "price": "0.87",
+    "product": {
+        "amazon_url": "https://amazon.de/gp/product/3734104092?tag=momox-21",
+        "description": "Buch von Galbraith, Robert\n(Taschenbuch, 672 Seiten)\nBlanvalet Taschenbuch Verlag, 2017-08-21",
+        "ean": "9783734104091",
+        "image_url": "https://www.momox.de/bilder/9783734104091/titel.jpg",
+        "title": "Die Ernte des B\u00f6sen: Roman (Die Cormoran-Strike-Reihe, Band 3)",
+        "type": "book"
+    },
+    "reference_price": null,
+    "reference_price_date": null,
+    "status": "offer",
+    "warehouse_status": 2
+}

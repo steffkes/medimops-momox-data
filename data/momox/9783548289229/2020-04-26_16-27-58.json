@@ -1,0 +1,17 @@
+{
+    "currency": "eur",
+    "demand_rating": 5,
+    "price": "3.72",
+    "product": {
+        "amazon_url": "https://amazon.de/gp/product/3548289223?tag=momox-21",
+        "description": "Buch von Cole, Daniel\n(Broschiert, 1., 416 Seiten)\nUllstein Taschenbuch, Januar 2020",
+        "ean": "9783548289229",
+        "image_url": "https://www.momox.de/bilder/9783548289229/titel.jpg",
+        "title": "Wolves \u2013 Die Jagd beginnt: Thriller (Ein New-Scotland-Yard-Thriller, Band 3)",
+        "type": "book"
+    },
+    "reference_price": null,
+    "reference_price_date": null,
+    "status": "offer",
+    "warehouse_status": 1
+}

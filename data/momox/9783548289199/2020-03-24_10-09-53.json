@@ -1,0 +1,17 @@
+{
+    "currency": "eur",
+    "demand_rating": 5,
+    "price": "0.15",
+    "product": {
+        "amazon_url": "https://amazon.de/gp/product/3548289193?tag=momox-21",
+        "description": "Buch von Cole, Daniel\n(Broschiert, 480 Seiten)\nUllstein Taschenbuch, M\u00e4rz 2017",
+        "ean": "9783548289199",
+        "image_url": "https://www.momox.de/bilder/9783548289199/titel.jpg",
+        "title": "Ein Detective-Fawkes-Thriller: Ragdoll - Dein letzter Tag: Thriller",
+        "type": "book"
+    },
+    "reference_price": null,
+    "reference_price_date": null,
+    "status": "offer",
+    "warehouse_status": 2
+}

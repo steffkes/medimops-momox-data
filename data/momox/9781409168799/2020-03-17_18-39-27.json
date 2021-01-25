@@ -1,0 +1,17 @@
+{
+    "currency": "eur",
+    "demand_rating": 2,
+    "price": "1.49",
+    "product": {
+        "amazon_url": "https://amazon.de/gp/product/1409168794?tag=momox-21",
+        "description": "Buch von Cole, Daniel\n(Gebundene Ausgabe, 1st Edition, 384 Seiten)\nTrapeze, M\u00e4rz 2018",
+        "ean": "9781409168799",
+        "image_url": "https://www.momox.de/bilder/9781409168799/titel.jpg",
+        "title": "Hangman (A Ragdoll Book)",
+        "type": "book"
+    },
+    "reference_price": null,
+    "reference_price_date": null,
+    "status": "offer",
+    "warehouse_status": 1
+}

@@ -1,0 +1,17 @@
+{
+    "currency": "eur",
+    "demand_rating": 5,
+    "price": "4.15",
+    "product": {
+        "amazon_url": "https://amazon.de/gp/product/3947188854?tag=momox-21",
+        "description": "Buch von Kobi Yamada\n(Gebundene Ausgabe, 1, 44 Seiten)\nadrian Verlag, September 2019",
+        "ean": "9783947188857",
+        "image_url": "https://www.momox.de/bilder/9783947188857/titel.jpg",
+        "title": "Vielleicht - Eine Geschichte \u00fcber die unendlich vielen Begabungen in jedem von uns: Das besondere Kinderbuch (Geschenkbuch M\u00e4dchen)",
+        "type": "book"
+    },
+    "reference_price": null,
+    "reference_price_date": null,
+    "status": "offer",
+    "warehouse_status": 1
+}

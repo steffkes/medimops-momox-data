@@ -1,0 +1,17 @@
+{
+    "currency": "eur",
+    "demand_rating": 5,
+    "price": "2.68",
+    "product": {
+        "amazon_url": "https://amazon.de/gp/product/3446414398?tag=momox-21",
+        "description": "Buch von DeMarco, Tom\n(Gebundene Ausgabe, 264 Seiten)\nCarl Hanser Verlag GmbH & Co. KG, November 2007",
+        "ean": "9783446414396",
+        "image_url": "https://www.momox.de/bilder/9783446414396/titel.jpg",
+        "title": "Der Termin: Ein Roman \u00fcber Projektmanagement",
+        "type": "book"
+    },
+    "reference_price": null,
+    "reference_price_date": null,
+    "status": "offer",
+    "warehouse_status": 2
+}

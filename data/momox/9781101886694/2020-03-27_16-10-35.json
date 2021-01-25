@@ -1,0 +1,17 @@
+{
+    "currency": "eur",
+    "demand_rating": 3,
+    "price": "3.10",
+    "product": {
+        "amazon_url": "https://amazon.de/gp/product/1101886692?tag=momox-21",
+        "description": "Buch von Neuvel, Sylvain\n(Gebundene Ausgabe, 320 Seiten)\nDel Rey, April 2016",
+        "ean": "9781101886694",
+        "image_url": "https://www.momox.de/bilder/9781101886694/titel.jpg",
+        "title": "Sleeping Giants (Themis Files)",
+        "type": "book"
+    },
+    "reference_price": null,
+    "reference_price_date": null,
+    "status": "offer",
+    "warehouse_status": 1
+}

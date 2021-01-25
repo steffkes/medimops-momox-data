@@ -1,0 +1,17 @@
+{
+    "currency": "eur",
+    "demand_rating": 5,
+    "price": "6.66",
+    "product": {
+        "amazon_url": "https://amazon.de/gp/product/3593398532?tag=momox-21",
+        "description": "Buch von Goldratt, Eliyahu M., Cox, Jeff\n(Gebundene Ausgabe, 5, 406 Seiten)\nCampus Verlag, M\u00e4rz 2013",
+        "ean": "9783593398532",
+        "image_url": "https://www.momox.de/bilder/9783593398532/titel.jpg",
+        "title": "Das Ziel: Ein Roman \u00fcber Prozessoptimierung",
+        "type": "book"
+    },
+    "reference_price": null,
+    "reference_price_date": null,
+    "status": "offer",
+    "warehouse_status": 2
+}

@@ -1,0 +1,17 @@
+{
+    "currency": "eur",
+    "demand_rating": 5,
+    "price": "0.84",
+    "product": {
+        "amazon_url": "https://amazon.de/gp/product/3548289215?tag=momox-21",
+        "description": "Buch von Cole, Daniel\n(Broschiert, 480 Seiten)\nUllstein Taschenbuch, Januar 2018",
+        "ean": "9783548289212",
+        "image_url": "https://www.momox.de/bilder/9783548289212/titel.jpg",
+        "title": "Hangman. Das Spiel des M\u00f6rders: Thriller (Ein New-Scotland-Yard-Thriller, Band 2)",
+        "type": "book"
+    },
+    "reference_price": null,
+    "reference_price_date": null,
+    "status": "offer",
+    "warehouse_status": 2
+}

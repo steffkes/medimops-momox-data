@@ -1,0 +1,17 @@
+{
+    "currency": "eur",
+    "demand_rating": 3,
+    "price": "4.96",
+    "product": {
+        "amazon_url": "https://amazon.de/gp/product/1101886722?tag=momox-21",
+        "description": "Buch von Neuvel, Sylvain\n(Gebundene Ausgabe, 336 Seiten)\nDel Rey, April 2017",
+        "ean": "9781101886724",
+        "image_url": "https://www.momox.de/bilder/9781101886724/titel.jpg",
+        "title": "Waking Gods: Book 2 of The Themis Files",
+        "type": "book"
+    },
+    "reference_price": null,
+    "reference_price_date": null,
+    "status": "offer",
+    "warehouse_status": 1
+}

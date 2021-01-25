@@ -1,0 +1,15 @@
+$ curl -i 'https://www.medimops.de/produkte-C0/?fcIsSearch=1&searchparam=9783423209694'
+
+HTTP/2 302
+date: Sat, 04 Jan 2020 18:40:20 GMT
+content-type: text/html; charset=UTF-8
+content-length: 0
+set-cookie: __cfduid=db59c8a00c3af0ce06b0323ac0b3af5e11578163220; expires=Mon, 03-Feb-20 18:40:20 GMT; path=/; domain=.medimops.de; HttpOnly; SameSite=Lax; Secure
+location: https://www.medimops.de/john-strelecky-das-cafe-am-rande-der-welt-eine-erzaehlung-ueber-den-sinn-des-lebens-taschenbuch-M03423209690.html
+x-cache-hits: 0
+via: 1.1 google
+alt-svc: clear
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 54ff571d9e61dfdf-FRA
