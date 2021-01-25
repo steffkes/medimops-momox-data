@@ -6,3 +6,9 @@ services:
     working_dir: /app
     volumes:
       - .:/app
+
+  crawler:
+    image: aciobanu/scrapy:2.3.0
+    working_dir: /app
+    volumes:
+      - ./:/app
