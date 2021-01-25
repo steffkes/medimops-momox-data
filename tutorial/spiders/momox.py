@@ -34,4 +34,4 @@ class MomoxSpider(scrapy.Spider):
             result["_source"] = "momox"
             yield result
         except json.decoder.JSONDecodeError as error:
-            print("%s | json oy" % response.status)
+            pass
