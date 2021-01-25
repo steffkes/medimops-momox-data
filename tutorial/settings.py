@@ -42,6 +42,8 @@ DEFAULT_REQUEST_HEADERS = {
     "X-MARKETPLACE-ID": "momox_de",
 }
 
+REDIRECT_ENABLED = True
+
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 SPIDER_MIDDLEWARES = {
@@ -62,7 +64,7 @@ DOWNLOADER_MIDDLEWARES = {
     "scrapy.downloadermiddlewares.retry.RetryMiddleware": None,
     "scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware": None,
     "scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware": None,
-    "scrapy.downloadermiddlewares.redirect.RedirectMiddleware": None,
+    "scrapy.downloadermiddlewares.redirect.RedirectMiddleware": 100,
     "scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware": None,
     #    'tutorial.middlewares.TutorialDownloaderMiddleware': 543,
 }
