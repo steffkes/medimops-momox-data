@@ -41,7 +41,7 @@ class MomoxSpider(scrapy.Spider):
         try:
             result = json.loads(response.body)
             result["_fetched_at"] = datetime.now(timezone.utc).isoformat()
-            result["_source"] = "momox"
+            result["_source"] = self.name
             yield result
         except json.decoder.JSONDecodeError as error:
             pass

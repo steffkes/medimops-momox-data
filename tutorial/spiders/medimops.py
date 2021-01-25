@@ -38,5 +38,5 @@ class MedimopsSpider(scrapy.Spider):
             result = variant.attrib
             result["_isbn"] = product["gtin13"]
             result["_fetched_at"] = datetime.now(timezone.utc).isoformat()
-            result["_source"] = "medimops"
+            result["_source"] = self.name
             yield result
