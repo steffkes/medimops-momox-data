@@ -42,6 +42,10 @@ cf-ray: 6170ce07b9ab0601-FRA
 
 ```
 
+``` bash
+curl -s -D /dev/stderr 'https://api.momox.de/api/v4/quicksell/?eans=9783551551672,9783551551696,9783551551689,9780345816023,9781449474256,9781524763138,9781408711392,9780099590088,9781439199190' -H 'X-API-TOKEN: 2231443b8fb511c7b6a0eb25a62577320bac69b6' -H 'X-MARKETPLACE-ID: momox_de' -H 'Cookie: media_sessionid=ponappt4qk9r2rtvat58bfoh9cjwtlgn' | jq
+```
+
 ```bash
 curl -iL 'https://www.medimops.de/produkte-C0/?fcIsSearch=1&searchparam=9783423209694'
 ```
